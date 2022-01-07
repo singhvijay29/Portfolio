@@ -1,0 +1,17 @@
+.heading{
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+}
+.heading-name{
+    font-size: 30px;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+.main-name {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    
+}
