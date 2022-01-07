@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursor {
+  width:22px;
+  height:22px;
+  border: 1px solid rgb(0, 217, 255);
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 250ms;
+  transition-timing-function: ease-out;
+  animation: animate1 .5s infinite alternate;
+  pointer-events: none;
+}
+.cursor::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 8px solid rgb(103, 209, 228);
+  border-radius: 50%;
+  opacity: .5;
+  /* top:center; */
+  /* left:0; */
+  animation: animate2 .5s infinite alternate;
+}
+@keyframes animate1{
+from{
+transform:scale(1);
+}
+to{
+transform: scale(0.6);
+}
+}
+@keyframes animate2{
+  from{
+  transform:scale(1);
+  }
+  to{
+  transform: scale(0.4);
+  }
+  }

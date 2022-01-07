@@ -1,0 +1,12 @@
+.project-cont{
+   
+   border-radius: 5px;
+   border: 8px solid rgb(199, 182, 182);
+   box-shadow: 0 0 0 8px rgba(0 0 0 0.25);
+}
+.project-cont img{
+
+    border-radius: 5px;
+    border: 8px solid rgb(199, 182, 182);
+    box-shadow: 0 0 0 8px rgba(0 0 0 0.25);
+ }
