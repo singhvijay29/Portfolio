@@ -15,10 +15,9 @@ export default function Projects() {
           Here are a few projects I've worked on recently.
           </p>
         </div>
-        <div className="flex flex-wrap -m-1">
+        <div className="flex flex-wrap -m-1 max-w-6xl justify-center">
           {projects.map((project) => (
             <a
-              href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
@@ -36,7 +35,7 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                   <div className="p-5 text-3xl">
-<a href={project.link} className="mr-4">
+<a href={project.gitlink} className="mr-4">
   <i class="fab fa-github"></i>
 </a>
 <a href={project.link}>

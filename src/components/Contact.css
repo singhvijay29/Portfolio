@@ -7,8 +7,7 @@
 
 .contact-info {
   display: flex;
-  margin-left: 5rem;
-  width: 50%;
+  width: 25%;
 }
 
 ul {
@@ -37,7 +36,7 @@ ul li {
   }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 250) {
   .contact-info {
     flex-direction: column;
   }

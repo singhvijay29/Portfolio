@@ -21,12 +21,12 @@ export default function Contact() {
 
 
   return (
-    <section id="contact" className="relative">
-      <h1 className="title">GET IN TOUCH</h1>
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+    <section id="contact" className="relative my-6">
+      <h1 className="title mt-5">GET IN TOUCH</h1>
+      <div className="container px-12 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="lg:w-1/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
          
-          <div className="contact-cont bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="contact-cont bg-gray-900 relative flex flex-wrap rounded shadow-md">
 
           <div className="blur"></div>
 <div className="content">
