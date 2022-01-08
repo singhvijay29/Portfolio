@@ -1,0 +1,18 @@
+    .cool-link a{
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .cool-link a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: rgb(165, 156, 156);
+        transition: width .3s;
+    }
+    
+    .cool-link a:hover::after {
+        width: 100%;
+        transition: width .3s;
+    }

@@ -1,8 +1,25 @@
 
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 import './Contact.css';
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_flhtcte', 'template_04b51x4', form.current, 'user_jEpZ0vTu03Aje92I2PJoH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+
+
   return (
     <section id="contact" className="relative">
       <h1 className="title">GET IN TOUCH</h1>
@@ -30,7 +47,7 @@ export default function Contact() {
 
       </div>
         </div>
-        <form
+        <form ref={form} onSubmit={sendEmail}
 
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">

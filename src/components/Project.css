@@ -1,12 +1,19 @@
-.project-cont{
-   
-   border-radius: 5px;
-   border: 8px solid rgb(199, 182, 182);
-   box-shadow: 0 0 0 8px rgba(0 0 0 0.25);
-}
-.project-cont img{
-
-    border-radius: 5px;
-    border: 8px solid rgb(199, 182, 182);
-    box-shadow: 0 0 0 8px rgba(0 0 0 0.25);
+@media screen and (max-width: 1300px) {
+   .project-cont {
+     display: grid;
+     font-size: 10px;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 50vh 50vh;
+   }
  }
+
+ /* My Recent Works
+Here are a few projects I've worked on recently.
+<div className="p-5 text-3xl">
+<a href={project.link} className="mr-4">
+  <i class="fab fa-github"></i>
+</a>
+<a href={project.link}>
+  <i class="fas fa-link"></i>
+</a>
+</div> */
