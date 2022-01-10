@@ -1,18 +1,9 @@
 
-import React, { useRef,useEffect } from "react";
+import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import './Contact.css';
-import Aos from "aos";
-import 'aos/dist/aos.css';
 
 export default function Contact() {
-  useEffect(()=>{
-    Aos.init({duration: 2000,
-      useClassNames: true,
-      initClassName: false,
-      animatedClassName: 'animated'
-    });
-  })
 
   const form = useRef();
 
@@ -31,14 +22,16 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative my-6">
-      <h1 className="title mt-5" data-aos="zoom-in-down">GET IN TOUCH</h1>
-      <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-1/4 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <h1 className="title mt-5">GET IN TOUCH</h1>
+      <div className="container px-12 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="lg:w-1/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
          
           <div className="contact-cont bg-gray-900 relative flex flex-wrap rounded shadow-md">
+
+      
 <div className="content">
   
-  <div className="contact-info" data-aos="fade-right">
+  <div className="contact-info">
     <ul className="circle-cont">
       <li><a className="circle2"><i class="fas fa-phone-square-alt"></i>+91 9082027900</a></li>
       <li><a className="circle"><i class="fas fa-envelope-square"></i></a>singhvijay8529@gmail.com</li>
@@ -54,7 +47,7 @@ export default function Contact() {
 
       </div>
         </div>
-        <form ref={form} onSubmit={sendEmail} data-aos="fade-left"
+        <form ref={form} onSubmit={sendEmail}
 
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
