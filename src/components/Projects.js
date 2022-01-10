@@ -1,25 +1,34 @@
 import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, { useEffect } from "react";
 import { projects } from "../data";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 export default function Projects() {
+  useEffect(()=>{
+    Aos.init({duration: 2000,
+      useClassNames: true,
+      initClassName: false,
+      animatedClassName: 'animated'
+    });
+  })
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white" data-aos="zoom-out-up">
           My Recent Works
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base" data-aos="zoom-out-down">
           Here are a few projects I've worked on recently.
           </p>
         </div>
-        <div className="flex flex-wrap -m-1 max-w-6xl justify-center">
+        <div className="flex flex-wrap -m-1 max-w-6xl justify-center" data-aos="zoom-out-down">
           {projects.map((project) => (
             <a
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-10">
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -48,7 +57,9 @@ export default function Projects() {
           ))}
         </div>
       </div>
+<br></br><br></br><br></br><br></br>      
     </section>
+    
   );
 }
 

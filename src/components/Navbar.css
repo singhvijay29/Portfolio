@@ -15,4 +15,5 @@
     .cool-link a:hover::after {
         width: 100%;
         transition: width .3s;
+    
     }
