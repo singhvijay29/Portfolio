@@ -39,7 +39,6 @@ margin-bottom: 1rem;
   }
 
 .skills-card {
-  max-width: 1400px;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
     color: #e6e6e6;
   display:grid;
