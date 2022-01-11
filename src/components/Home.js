@@ -12,6 +12,7 @@ export default function Home() {
       animatedClassName: 'animated'
     });
   })
+  
   return (
     <section id="home" data-aos="fade-up">
       <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-24">
