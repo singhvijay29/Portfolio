@@ -1,12 +1,12 @@
 
 import React, { useRef,useEffect } from "react";
 import emailjs from "emailjs-com";
-import Footer from './Footer'
 import './Contact.css';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
 export default function Contact() {
+
   useEffect(()=>{
     Aos.init({duration: 2000,
       useClassNames: true,
@@ -42,11 +42,11 @@ export default function Contact() {
   <div className="contact-info" data-aos="fade-right">
     <ul className="circle-cont">
       <li><a className="circle2"><i class="fas fa-phone-square-alt"></i>+91 9082027900</a></li>
-      <li><a className="circle"><i class="fas fa-envelope-square"></i></a>singhvijay8529@gmail.com</li>
-      <li><a href="https://github.com/singhvijay29" className="circle"><i class="fab fa-github"></i>Github</a></li>
-      <li><a href="https://www.linkedin.com/in/vijay-kumar-singh-675270203/" className="circle"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
-      <li><a href="https://medium.com/@singhvijay8529" className="circle"><i class="fab fa-medium"></i>Medium</a></li>
-      <li><a href="https://twitter.com/VijayKumar609" className="circle"><i class="fab fa-twitter"></i>Twitter</a></li>
+      <li className="mx-auto flex sm:flex-nowrap"><a href="mailto:singhvijay8529@gmail.com"className="circle"><i class="fas fa-envelope-square"></i></a>singhvijay8529@gmail.com</li>
+      <li><a href="https://github.com/singhvijay29" target="_blank" className="circle"><i class="fab fa-github"></i>Github</a></li>
+      <li><a href="https://www.linkedin.com/in/vijay-kumar-singh-675270203/" target="_blank" className="circle"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+      <li><a href="https://medium.com/@singhvijay8529" target="_blank" className="circle"><i class="fab fa-medium"></i>Medium</a></li>
+      <li><a href="https://twitter.com/VijayKumar609" target="_blank" className="circle"><i class="fab fa-twitter"></i>Twitter</a></li>
   
     </ul>
   </div>
@@ -104,7 +104,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    
     </section>
   );
 }

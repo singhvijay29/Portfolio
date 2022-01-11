@@ -40,11 +40,12 @@ export default function About() {
             </div>
           </div>
           <br></br>
-      
+          <br></br>
+          <br></br>
 
           <div className="flex justify-center mt-14" data-aos="fade-up">
             <a
-              href="https://drive.google.com/file/d/1z3NDzbJEGTA8C9zFtSC6zMpbbdCNz2-y/view?usp=sharing"
+              href="https://drive.google.com/file/d/1z3NDzbJEGTA8C9zFtSC6zMpbbdCNz2-y/view?usp=sharing" target="_blank"
               className="inline-flex text-white bg-green-500 border-0 py-3 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
               Resume
@@ -59,9 +60,9 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" data-aos="fade-left">
           <img
-            className="image-bar rounded-r-full border-8 w-2/4 ml-11"
-            alt="hero"
-            src="https://i.ibb.co/18nMYrY/me.jpg"
+            className="rounded-full rounded-t-full rounded-b-full rounded-r-full and rounded-l-full border-8 w-2/3 ml-12"
+            alt="img"
+            src="https://o.remove.bg/downloads/34472fc7-49ca-448c-b7c4-550d425b8450/vj-removebg-preview.png"
           />
         </div>
       </div>
