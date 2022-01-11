@@ -17,3 +17,7 @@
         transition: width .3s;
     
     }
+    .headerTop{
+        position:fixed;
+        width: 100%;
+    }

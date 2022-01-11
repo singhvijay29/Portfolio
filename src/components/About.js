@@ -1,9 +1,16 @@
-import React from "react";
-import "./Home.css";
+import React, { useEffect} from "react";
+
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
-export default function Home() {
+export default function About() {
+  useEffect(()=>{
+    Aos.init({duration: 2000,
+      useClassNames: true,
+      initClassName: false,
+      animatedClassName: 'animated'
+    });
+  })
   return (
     <section id="about">
       <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -59,6 +66,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <br></br><br></br><br></br><br></br>
     </section>
   );
 }

@@ -34,13 +34,6 @@ ul li {
     margin-right: 1.5rem;
 
   }
-
-/* 
-@media screen and (max-width: 250px) {
-  .contact-info ul li{
-    flex-direction: column;
-    font-size: 12px;
-  } */
   
   .contact-section {
     margin-top: 30px;

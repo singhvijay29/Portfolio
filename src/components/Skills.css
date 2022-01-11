@@ -1,51 +1,52 @@
-  .skills-div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 10rem;
-  }
-  
-  .skills-section h1 {
-    color: #e6e6e6;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    font-weight: 500;
-    font-size: 2.25rem;
+.skills-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 8rem;
+}
+
+.skills-section h1 {
+  color: #e6e6e6;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 500;
+  font-size: 2.25rem;
 line-height: 2.25rem;
 margin-bottom: 1rem;
-    line-height: 2.5rem;
-  }
-  
-  h2 {
-    color: #e6e6e6;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    font-weight: 500;
-    font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h2 {
+  color: #e6e6e6;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 500;
+  font-size: 2rem;
 line-height: 2.25rem;
 margin-bottom: 1rem;
-    line-height: 2.5rem;
-  }
-  
-  .skills-card {
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-      color: #e6e6e6;
-    display:grid;
-    grid-gap: 1rem;
-    padding: 1rem 0;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-    width: 10rem;
-    border-radius: 1rem;
-    text-align: center;
-      margin: 1rem 0.7rem;
-  }
-  .skills-card img {
-    height: 8rem;
-    margin:auto;
-    width: 8rem;
-    margin-bottom: 1rem;
-  }
+  line-height: 2.5rem;
+}
+
+.skills-card img {
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 1rem;
+  margin:auto;
+}
+
+.skills-card {
+background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  color: #e6e6e6;
+display:grid;
+grid-gap: 1rem;
+padding: 1rem 0;
+grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+width: 10rem;
+border-radius: 1rem;
+text-align: center;
+  margin: 1rem 0.7rem;
+}

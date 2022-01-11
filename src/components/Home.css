@@ -10,10 +10,11 @@
     margin-bottom: 4rem;
 }
 .wave {
+    font-size: 3rem;
     animation-name: wave-animation; 
     animation-duration: 2.5s;    
     animation-iteration-count: infinite;  
-    transform-origin: 70% 70%;      
+    transform-origin: 100% 100%;      
     display: inline-block;
   }
   
