@@ -4,7 +4,7 @@ const Footer = () => {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <div className="footer headerTop p-7 flex justify-between bg-gray-800 md:sticky items-center">
+    <div className="footer headerTop p-3 flex justify-between bg-gray-800 items-center">
       <div className="container">
           <h3>Copyright © {year} Vijay Kumar Singh. All rights reserved</h3>
         </div>

@@ -40,8 +40,7 @@ export default function About() {
             </div>
           </div>
           <br></br>
-          <br></br>
-          <br></br>
+      
 
           <div className="flex justify-center mt-14" data-aos="fade-up">
             <a
