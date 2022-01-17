@@ -17,7 +17,7 @@ export default function Home() {
     <section id="home" data-aos="fade-up">
       <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-20">
         <div className="lg:flex-grow md:w-1/2 lg:pr-28 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up">
-          <h1 className="heading text-8xl mt-20">
+          <h1 className="heading text-8xl mt-15">
             Hi There!{" "}
             <span className="wave" data-aos="fade-up">👋</span>
           </h1>
@@ -25,7 +25,7 @@ export default function Home() {
           <br></br>
           <br></br>
 
-          <h1 className="heading-name text-7xl mr-0.5">
+          <h1 className="heading-name text-6xl mr-0.5">
             I'M 
             <strong className="main-name text-5xl"> Vijay Kumar Singh</strong></h1>
             <br></br>
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" data-aos="fade-right">
+        <div className="lg:max-w-lg  md:w-1/3 w-4/6" data-aos="fade-right">
           <img
             className="image-bar"
             alt="hero"

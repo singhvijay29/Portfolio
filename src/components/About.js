@@ -16,7 +16,7 @@ export default function About() {
     <section id="about">
       <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-28 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 style={{ fontSize: "2.6em" }} data-aos="fade-down">
+          <h1 style={{ fontSize: "2em" }} data-aos="fade-down">
             LET ME <span className="purple"> INTRODUCE </span> MYSELF
           </h1>
           <br></br>
@@ -65,7 +65,7 @@ export default function About() {
           data-aos="fade-left"
         >
           <img
-            className="rounded-full rounded-t-full rounded-b-full rounded-r-full and rounded-l-full border-8 w-2/3 ml-12"
+            className="rounded-full rounded-t-full rounded-b-full rounded-r-full and rounded-l-full border-8 w-2/4 ml-12"
             alt="img"
             src="https://i.ibb.co/dbkdbmr/s0-coded5bf9a9b-65e7-4b0e-b85f-ac821f55a7fd-editor-result-removebg-preview.png"/>
         </div>
