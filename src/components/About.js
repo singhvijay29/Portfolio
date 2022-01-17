@@ -29,7 +29,7 @@ export default function About() {
                 className="home-about-description"
                 data-aos="fade-right"
               >
-                <p className="home-about-body" style={{ fontSize: "1.8em" }}>
+                <p className="home-about-body" style={{ fontSize: "1.4em" }}>
                   A Passionate aspiring Full Stack Developer skilled in MERN
                   stack, moulded and shaped by Masai school’s intensive and
                   immersive learning. Look forward to joining a company where I
@@ -61,11 +61,11 @@ export default function About() {
           </div>
         </div>
         <div
-          className="lg:max-w-lg lg:w-full md:w-1/2 w-2/6"
+          className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
           data-aos="fade-left"
         >
           <img
-            className="rounded-full rounded-t-full rounded-b-full rounded-r-full and rounded-l-full border-8 w-2/3 ml-10"
+            className="rounded-full rounded-t-full rounded-b-full rounded-r-full and rounded-l-full border-8 w-2/3 ml-12"
             alt="img"
             src="https://i.ibb.co/dbkdbmr/s0-coded5bf9a9b-65e7-4b0e-b85f-ac821f55a7fd-editor-result-removebg-preview.png"/>
         </div>
