@@ -22,7 +22,7 @@ function App() {
     return isLoading ? (
         <Loader />
     ) : (
-    <div className="text-gray-400 bg-gray-900 body-font">
+    <div className="App text-gray-400 bg-gray-900 body-font">
 <Navbar />
 <Home />
 <About />

@@ -15,7 +15,7 @@ export default function Home() {
   
   return (
     <section id="home" data-aos="fade-up">
-      <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-24">
+      <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-20">
         <div className="lg:flex-grow md:w-1/2 lg:pr-28 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up">
           <h1 className="heading text-8xl mt-20">
             Hi There!{" "}

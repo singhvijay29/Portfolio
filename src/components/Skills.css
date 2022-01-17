@@ -43,10 +43,10 @@ background-color: rgb(31 41 55 / var(--tw-bg-opacity));
   color: #e6e6e6;
 display:grid;
 grid-gap: 1rem;
-padding: 1rem 0;
-grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-width: 10rem;
+padding: 1.4rem 0;
+grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+width: 8rem;
 border-radius: 1rem;
 text-align: center;
-  margin: 1rem 0.7rem;
+  margin: 1.2rem 0.7rem;
 }

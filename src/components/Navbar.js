@@ -5,8 +5,8 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <header className="headerTop bg-gray-800 top-0 bg-gray-800 mt-0 fixed w-full z-10 top-0">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
+      <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
+        <a className="title-font font-medium text-white mb-3 md:mb-0">
           <a href="/#home" className="ml-3 text-xl">
           𝒱𝒾𝒿𝒶𝓎 𝒦𝓊𝓂𝒶𝓇 𝒮𝒾𝓃𝑔𝒽
           </a>

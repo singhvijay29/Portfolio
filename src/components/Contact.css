@@ -1,12 +1,12 @@
 .title {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .contact-info {
   display: flex;
-  width: 25%;
+  width: 20%;
 }
 
 ul {

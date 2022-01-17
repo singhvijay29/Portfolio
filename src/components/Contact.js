@@ -58,7 +58,7 @@ export default function Contact() {
         <form ref={form} onSubmit={sendEmail} data-aos="fade-left"
 
           name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-12 mt-8 md:mt-0 mr-5">
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-12 mt-8 md:mt-0 mr-5 ml-5">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
