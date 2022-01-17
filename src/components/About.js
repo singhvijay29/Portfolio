@@ -61,11 +61,11 @@ export default function About() {
           </div>
         </div>
         <div
-          className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
+          className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 m-auto"
           data-aos="fade-left"
         >
           <img
-            className="rounded-full rounded-t-full rounded-b-full rounded-r-full and rounded-l-full border-8 w-2/4 ml-12"
+            className="image-approunded-full rounded-t-full rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-2/4"
             alt="img"
             src="https://i.ibb.co/dbkdbmr/s0-coded5bf9a9b-65e7-4b0e-b85f-ac821f55a7fd-editor-result-removebg-preview.png"/>
         </div>
