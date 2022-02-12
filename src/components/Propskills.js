@@ -24,7 +24,7 @@ const Propskills = () => {
         </div>
         <div class="skills-card" data-aos="flip-up">
           <img
-            src="https://cdn.icon-icons.com/icons2/1852/PNG/512/iconfinder-cloudserver-4417106_116641.png"
+            src="https://bit.ly/3rM8CP3"
             alt=""
           />
           <h3>Backend</h3>
