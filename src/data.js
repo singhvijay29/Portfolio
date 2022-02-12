@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "TECH STACK: HTML | CSS | Material UI | JavaScript | Express Js | Mongo DB | ReactJs",
     description:
       " Dineout is a platform that enables customers to directly make reservations for nearby restaurants and book the tables.",
-    image: "https://ibb.co/kxHQZHy",
+    image: "https://i.ibb.co/YLhvf8S/ezgif-com-gif-maker.png",
     gitlink: "https://github.com/RajP62/Dineout",
     link: "https://dineout-rajp62.vercel.app/",
   },
