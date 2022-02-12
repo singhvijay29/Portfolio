@@ -1,4 +1,13 @@
 export const projects = [
+   {
+    title: "Dineout.com Clone",
+    subtitle: "TECH STACK: HTML | CSS | Material UI | JavaScript | Express Js | Mongo DB | ReactJs",
+    description:
+      " Dineout is a platform that enables customers to directly make reservations for nearby restaurants and book the tables.",
+    image: "https://drive.google.com/file/d/1jf79YuxoTD6bCcGKQ3EHZzQj3udTJwV8/view?usp=sharing",
+    gitlink: "https://github.com/RajP62/Dineout",
+    link: "https://dineout-rajp62.vercel.app/",
+  },
   {
     title: "Dunzo.com Clone",
     subtitle: "TECH STACK: HTML | CSS | JavaScript | Express Js | Mongo DB",
