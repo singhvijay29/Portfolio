@@ -28,7 +28,7 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               key={project.image}
-              className="sm:w-1/2 w-100 p-10">
+              className="sm:w-1/2 w-100 p-5">
               <div className="flex relative">
                 <img
                   alt="gallery"
