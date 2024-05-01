@@ -30,11 +30,7 @@ export default function About() {
                 data-aos="fade-right"
               >
                 <p className="home-about-body" style={{ fontSize: "1.4em" }}>
-                  A Passionate aspiring Full Stack Developer skilled in MERN
-                  stack, moulded and shaped by Masai school’s intensive and
-                  immersive learning. Look forward to joining a company where I
-                  will be able to contribute towards individual and company
-                  growth.
+                  Experienced Frontend Developer adept in crafting dynamic web applications, Specialized in translating designs into user-friendly interfaces, optimizing performance, and ensuring cross-browser compatibility. Committed to staying abreast of the latest technologies to enhance user experiences. With over 2 years of hands-on experience, consistently delivers high-quality frontend solutions.
                 </p>
               </div>
             </div>
