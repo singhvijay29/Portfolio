@@ -32,14 +32,14 @@ export default function Home() {
           </h1>
           <br></br>
           <br></br>
-          <h1 className="heading-name text-[24px] md:text-6xl mr-0.5">
+          <h1 className="heading-name text-[24px] md:text-6xl mr-0.5  whitespace-nowrap">
             I'M
             <strong className="main-name text-[44px] md:text-5xl">
               {" "}
               Vijay <span className="hidden md:inline">Kumar</span> Singh
             </strong>
           </h1>
-          <h1 className="text-[24px] md:text-4xl">
+          <h1 className="text-[24px] md:text-4xl whitespace-nowrap">
             <Type />
           </h1>
 
