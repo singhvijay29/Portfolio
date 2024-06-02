@@ -45,7 +45,9 @@ export default function Home() {
 
           <div className="flex justify-center mt-14">
             <a
-              href={process.env.RESUME_LINK}
+              href={
+                "https://drive.google.com/file/d/1CO_bPEtsQOdLXppGNLd1q3MkmOMMrp4N/view?usp=sharing"
+              }
               target="_blank"
               rel="noreferrer"
               className="inline-flex text-white bg-green-500 border-0 py-3 px-6 focus:outline-none hover:bg-green-600 rounded text-lg cursor-pointer flex items-center justify-center"

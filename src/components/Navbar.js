@@ -4,7 +4,7 @@ import "./Navbar.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-export default function Navbar() {
+export default function Navbar({ scrollY }) {
   useEffect(() => {
     Aos.init({
       duration: 2000,
@@ -18,7 +18,9 @@ export default function Navbar() {
   return (
     <>
       <header
-        className="headerTop mt-0 fixed top-0 overflow-hidden w-full z-[999] bg-[#000]"
+        className={`headerTop mt-0 fixed top-0 overflow-hidden w-full z-[999] ${
+          scrollY > 120 && "bg-[#000]"
+        }`}
         data-aos="fade-down"
         data-aos-anchor-placement="top-bottom"
         data-aos-duration="700"
