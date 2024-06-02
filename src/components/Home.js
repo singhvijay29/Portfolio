@@ -2,44 +2,69 @@ import React, { useEffect } from "react";
 import "./Home.css";
 import Type from "./Type";
 import Aos from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 
 export default function Home() {
-  useEffect(()=>{
-    Aos.init({duration: 2000,
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
       useClassNames: true,
       initClassName: false,
-      animatedClassName: 'animated'
+      animatedClassName: "animated",
     });
-  })
-  
+  });
+
   return (
-    <section id="home" data-aos="fade-up">
-      <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-20">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-28 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up">
+    <section
+      id="home"
+      data-aos="fade-in"
+      data-aos-duration="700"
+      className="lg:h-[100vh] flex items-center justify-center"
+    >
+      <div className="about-cont container mx-auto flex gap-[64px] lg:gap-0 px-10 pt-[80px] md:pt-[160px] lg:pt-20 pb-20 lg:flex-row flex-col items-center ">
+        <div
+          className="lg:flex-grow lg:w-1/2 lg:pr-28 lg:pr-16 flex flex-col lg:items-start lg:text-left items-center text-center"
+          data-aos="fade-in"
+          data-aos-duration="700"
+        >
           <h1 className="heading text-8xl mt-10">
-            Hi There!{" "}
-            <span className="wave" data-aos="fade-up">👋</span>
+            Hi There! <span className="wave">👋</span>
           </h1>
           <br></br>
           <br></br>
-          <br></br>
+          <h1 className="heading-name text-[24px] md:text-6xl mr-0.5">
+            I'M
+            <strong className="main-name text-[44px] md:text-5xl">
+              {" "}
+              Vijay <span className="hidden md:inline">Kumar</span> Singh
+            </strong>
+          </h1>
+          <h1 className="text-[24px] md:text-4xl">
+            <Type />
+          </h1>
 
-          <h1 className="heading-name text-6xl mr-0.5">
-            I'M 
-            <strong className="main-name text-5xl"> Vijay Kumar Singh</strong></h1>
-            <br></br>
-    
-            <h1 className="text-4xl" data-aos="fade-"> <Type /></h1>
-           
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-           
-
+          <div className="flex justify-center mt-14">
+            <a
+              href={process.env.RESUME_LINK}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex text-white bg-green-500 border-0 py-3 px-6 focus:outline-none hover:bg-green-600 rounded text-lg cursor-pointer flex items-center justify-center"
+            >
+              Resume
+            </a>
+            <a
+              href="/#projects"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg cursor-pointer flex items-center justify-center"
+            >
+              Projects
+            </a>
+          </div>
         </div>
-        <div className="lg:max-w-lg md:w-1/3 w-5/6 m-auto" data-aos="fade-right">
+        <div
+          className="lg:max-w-lg lg:w-2/3 w-5/6 m-auto"
+          data-aos="fade-in"
+          data-aos-duration="700"
+        >
           <img
             className="image-bar"
             alt="hero"

@@ -2,3 +2,7 @@
   text-align: center;
   margin: 2rem;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

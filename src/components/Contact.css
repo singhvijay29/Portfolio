@@ -23,18 +23,15 @@ ul li {
   align-items: center;
 }
 
-.contact-info ul li i{
+.contact-info ul li i {
   font-size: 1.7rem;
   margin-right: 1.5rem;
-
 }
 .contact-info ul li {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+}
 
-  }
-  
-  .contact-section {
-    margin-top: 30px;
-  }
+.contact-section {
+  margin-top: 30px;
+}
