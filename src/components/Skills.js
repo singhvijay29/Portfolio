@@ -13,6 +13,7 @@ export default function Skills() {
           <img
             src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
             alt=""
+            class="h-[40px] w-[40px]"
           />
           <h3>React</h3>
         </div>
