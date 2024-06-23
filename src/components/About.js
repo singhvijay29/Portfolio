@@ -2,6 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
+<div className="gradient-to-gray-900 w-[100vw] overflow-hidden">
     <section id="about" className="max-w-[920px] mx-auto ">
       <div className="about-cont container mx-auto flex px-10 py-20 flex-col items-center">
         <div className="flex flex-col lg:items-start text-left mb-16 lg:mb-0 items-center">
@@ -106,5 +107,6 @@ export default function About() {
         </div>
       </div>
     </section>
+</div>
   );
 }
