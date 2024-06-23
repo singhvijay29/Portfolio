@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="max-w-[920px] mx-auto gradient-to-black">
+    <section id="about" className="max-w-[920px] mx-auto gradient-to-gray-900">
       <div className="about-cont container mx-auto flex px-10 py-20 flex-col items-center">
         <div className="flex flex-col lg:items-start lg:text-left mb-16 lg:mb-0 items-center text-center">
           <h1 style={{ fontSize: "2em" }}>
