@@ -106,5 +106,6 @@ export default function Skills() {
       <br></br>
       <br></br>
     </section>
+</div>
   );
 }
