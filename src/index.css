@@ -30,3 +30,12 @@
 html {
   background-color: #000;
 }
+
+.gradient-to-black {
+  background: linear-gradient(180deg, #000000 0%, #101827 100%) !important;
+}
+
+.gradient-to-gray-900 {
+  background: linear-gradient(180deg, #101827 0%, #000000 100%) !important;
+}
+
