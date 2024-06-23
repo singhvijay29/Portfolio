@@ -10,6 +10,7 @@ export const projects = [
       "https://i.postimg.cc/W4MPGZrm/Screenshot-2024-06-23-at-3-19-11-PM.png",
     gitlink: "https://github.com/RajP62/Dineout",
     link: "https://pazago.com/",
+    appLink:"https://pazagoapp.page.link/Zi7X",
     isApp: true,
   },
   {
