@@ -1,8 +1,52 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import React, { useEffect, useRef } from "react";
 
 export default function Projects() {
+   const cardRef = useRef([]);
+
+  useEffect(() => {
+    cardRef.current.forEach((card) => {
+      if (card) {
+        card.addEventListener("mousemove", handleMouseMove);
+        card.addEventListener("mouseenter", handleMouseEnter);
+        card.addEventListener("mouseleave", handleMouseLeave);
+      }
+    });
+
+    return () => {
+      cardRef.current.forEach((card) => {
+        if (card) {
+          card.removeEventListener("mousemove", handleMouseMove);
+          card.removeEventListener("mouseenter", handleMouseEnter);
+          card.removeEventListener("mouseleave", handleMouseLeave);
+        }
+      });
+    };
+  }, []);
+
+  const handleMouseMove = (e) => {
+    const card = e.currentTarget;
+    const cardRect = card.getBoundingClientRect();
+    const centerX = cardRect.left + cardRect.width / 2;
+    const centerY = cardRect.top + cardRect.height / 2;
+    const xAxis = (centerX - e.clientX) / 20;
+    const yAxis = (centerY - e.clientY) / 20;
+    card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+  };
+
+  const handleMouseEnter = (e) => {
+    const card = e.currentTarget;
+    card.style.transition = "none";
+  };
+
+  const handleMouseLeave = (e) => {
+    const card = e.currentTarget;
+    card.style.transition = "transform 0.5s ease";
+    card.style.transform = "rotateY(0deg) rotateX(0deg)";
+  };
+  
   return (
     <section id="projects" className="text-gray-400 body-font">
       <div className="container px-5 py-[80px] mx-auto text-center lg:px-40">
@@ -17,8 +61,8 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-1 max-w-7xl justify-center">
           {projects.map((project) => (
-            <a key={project.image} className="sm:w-1/2 w-100 p-5">
-              <div className="flex relative">
+              <div key={project.image} className="flex relative sm:w-1/2 w-100 p-5"          
+                    ref={(el) => (cardRef.current[index] = el)}>
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-80 object-center overflow-hidden"
@@ -42,7 +86,6 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-            </a>
           ))}
         </div>
       </div>
