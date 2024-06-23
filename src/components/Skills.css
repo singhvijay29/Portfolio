@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   max-width: 1024px;
   margin: auto;
-  perspective: 1000px; /* Add perspective to the container */
 }
 
 .skills-section h1 {
@@ -48,7 +47,10 @@ h2 {
   margin: 1.2rem 0.7rem;
   border: 1px solid #8D98A6;
   transition: transform 0.1s;
-  transform-style: preserve-3d; /* Preserve 3D transformations */
+}
+
+.skills-card:hover {
+  background-color: #8D98A6;
 }
 
 
