@@ -15,6 +15,7 @@ export default function Home() {
   });
 
   return (
+    <div className="gradient-to-black w-[100vw] overflow-hidden">
     <section
       id="home"
       data-aos="fade-in"
@@ -75,5 +76,6 @@ export default function Home() {
         </div>
       </div>
     </section>
+</div>
   );
 }
