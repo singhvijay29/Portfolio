@@ -4,6 +4,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
+    <div className="gradient-to-gray-900 w-[100vw] overflow-hidden">
     <section id="projects" className="text-gray-400 body-font">
       <div className="px-5 py-[80px] mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
@@ -68,5 +69,6 @@ export default function Projects() {
         </div>
       </div>
     </section>
+</div>
   );
 }
