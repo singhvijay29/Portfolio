@@ -1,51 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { CodeIcon } from "@heroicons/react/solid";
 import { projects } from "../data";
 
 export default function Projects() {
-   const cardRef = useRef([]);
-
-  useEffect(() => {
-    cardRef.current.forEach((card) => {
-      if (card) {
-        card.addEventListener("mousemove", handleMouseMove);
-        card.addEventListener("mouseenter", handleMouseEnter);
-        card.addEventListener("mouseleave", handleMouseLeave);
-      }
-    });
-
-    return () => {
-      cardRef.current.forEach((card) => {
-        if (card) {
-          card.removeEventListener("mousemove", handleMouseMove);
-          card.removeEventListener("mouseenter", handleMouseEnter);
-          card.removeEventListener("mouseleave", handleMouseLeave);
-        }
-      });
-    };
-  }, []);
-
-  const handleMouseMove = (e) => {
-    const card = e.currentTarget;
-    const cardRect = card.getBoundingClientRect();
-    const centerX = cardRect.left + cardRect.width / 2;
-    const centerY = cardRect.top + cardRect.height / 2;
-    const xAxis = (centerX - e.clientX) / 20;
-    const yAxis = (centerY - e.clientY) / 20;
-    card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-  };
-
-  const handleMouseEnter = (e) => {
-    const card = e.currentTarget;
-    card.style.transition = "none";
-  };
-
-  const handleMouseLeave = (e) => {
-    const card = e.currentTarget;
-    card.style.transition = "transform 0.5s ease";
-    card.style.transform = "rotateY(0deg) rotateX(0deg)";
-  };
-  
   return (
     <section id="projects" className="text-gray-400 body-font">
       <div className="container px-5 py-[80px] mx-auto text-center lg:px-40">
@@ -59,11 +16,10 @@ export default function Projects() {
           </p>
         </div>
           <div className="flex flex-wrap -m-1 max-w-7xl justify-center">
-      {projects.map((project, index) => (
+       {projects.map((project, index) => (
         <div
-          key={project.image}
-          className="flex relative sm:w-1/2 w-full p-5 card-container"
-          ref={(el) => (cardRef.current[index] = el)}
+          key={index}
+          className="flex relative sm:w-1/2 w-full p-5"
         >
           <img
             alt="gallery"
