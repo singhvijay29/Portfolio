@@ -25,11 +25,11 @@ export default function Navbar({ scrollY }) {
         data-aos-anchor-placement="top-bottom"
         data-aos-duration="700"
       >
-        <div className="container mx-auto flex flex-wrap px-4 pt-[6px] flex-row items-center justify-between">
+        <div className="container mx-auto flex flex-wrap px-6 pt-[6px] flex-row items-center justify-between">
           <div className="flex items-center">
             <a className="title-font font-medium text-white">
               <a href="/#home" className="">
-                <img src="/name_logo.png" className="h-[74px]" />
+                <img src="/name_logo.png" className="h-[74px] ml-[-10px]" />
               </a>
             </a>
             <nav className="cool-link hidden md:block md:ml-6 md:py-4 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
