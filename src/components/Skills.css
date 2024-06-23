@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .skills-section h1 {
