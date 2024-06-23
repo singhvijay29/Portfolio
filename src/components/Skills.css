@@ -27,8 +27,8 @@ h2 {
 }
 
 .skills-card img {
-  height: 8rem;
-  width: 8rem;
+  height: 40px;
+  width: 40px;
   margin-bottom: 1rem;
   margin: auto;
 }
@@ -43,4 +43,5 @@ h2 {
   border-radius: 1rem;
   text-align: center;
   margin: 1.2rem 0.7rem;
+  border: 1px solid #8D98A6
 }
