@@ -3,7 +3,8 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    <section id="Skills" class="skills-section container mx-auto py-[80px] gradient-to-black">
+  <div className="gradient-to-black w-[100vw] overflow-hidden">
+    <section id="Skills" class="skills-section container mx-auto py-[80px]">
       <div class="container"></div>
       <h1>Tools And Skills</h1>
       <br></br>
