@@ -39,3 +39,12 @@ html {
   background: linear-gradient(180deg, #0a0f1a 0%, #000000 100%) !important;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
