@@ -5,7 +5,7 @@ const Footer = () => {
   let year = date.getFullYear();
   return (
 <div className="bg-[#0a0f1a] w-[100vw] overflow-hidden">
-    <div className="footer headerTop py-4 px-10 flex justify-between items-center">
+    <div className="footer headerTop py-4 px-6 md:px-10 flex justify-between items-center">
       <div className="container">
         <h3>Copyright © {year} Vijay Kumar Singh. All rights reserved</h3>
       </div>
