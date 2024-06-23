@@ -7,7 +7,6 @@ export default function Skills() {
       <div class="container"></div>
       <h1>Tools And Skills</h1>
       <br></br>
-      <h2>Tech Stacks</h2>
       <div class="skills-div">
       <div class="skills-card">
           <img
