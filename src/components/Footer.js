@@ -4,6 +4,7 @@ const Footer = () => {
   let date = new Date();
   let year = date.getFullYear();
   return (
+<div className="gradient-to-black w-[100vw] overflow-hidden">
     <div className="footer headerTop py-4 px-10 flex justify-between items-center">
       <div className="container">
         <h3>Copyright © {year} Vijay Kumar Singh. All rights reserved</h3>
@@ -48,6 +49,7 @@ const Footer = () => {
         </a>
       </div>
     </div>
+</div>
   );
 };
 export default Footer;
