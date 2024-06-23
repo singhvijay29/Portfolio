@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="gradient-to-gray-900 w-[100vw] overflow-hidden">
     <section id="projects" className="text-gray-400 body-font">
-      <div className="px-5 py-[80px] mx-auto text-center lg:px-40">
+      <div className="px-5 pt-[80px] mb-[120px] mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
