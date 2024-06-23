@@ -1,7 +1,6 @@
-import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
-import { projects } from "../data";
 import React, { useEffect, useRef } from "react";
+import { CodeIcon } from "@heroicons/react/solid";
+import { projects } from "../data";
 
 export default function Projects() {
    const cardRef = useRef([]);
