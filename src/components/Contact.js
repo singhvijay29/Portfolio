@@ -27,6 +27,7 @@ export default function Contact() {
   };
 
   return (
+    <div className="gradient-to-black w-[100vw] overflow-hidden">
     <section id="contact" className="relative pb-[80px]">
       <h1 className="title mt-5">GET IN TOUCH</h1>
       <div className="container mx-auto flex flex-col lg:flex-row ">
@@ -148,5 +149,6 @@ export default function Contact() {
         </form>
       </div>
     </section>
+</div>
   );
 }
