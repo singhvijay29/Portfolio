@@ -46,7 +46,8 @@ h2 {
   text-align: center;
   margin: 1.2rem 0.7rem;
   border: 1px solid #8D98A6;
-  transition: transform 0.4s;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .skills-card:hover {
