@@ -55,7 +55,7 @@ export default function Projects() {
                   </div>
                   {project?.isApp && (
                     <div
-                      onClick={() => window.open(project?.link)}
+                      onClick={() => window.open(project?.appLink)}
                       className="text-16 flex items-center justify-center px-5 py-3 rounded-[24px] border-[1px] border-gray-800 w-max mx-auto bg-gray-800 hover:text-[#fff] transition duration-[400ms] cursor-pointer hover:ring-[1px] ring-gray-700"
                     >
                       {"Download App"}
