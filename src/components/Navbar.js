@@ -29,7 +29,7 @@ export default function Navbar({ scrollY }) {
           <div className="flex items-center">
             <a className="title-font font-medium text-white">
               <a href="/#home" className="">
-                <img src="/name_logo.png" className="h-[74px] ml-[-10px]" />
+                <img src="/name_logo.png" className="h-[74px] ml-[-14px]" />
               </a>
             </a>
             <nav className="cool-link hidden md:block md:ml-6 md:py-4 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
