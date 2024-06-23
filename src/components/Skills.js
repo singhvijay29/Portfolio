@@ -103,8 +103,6 @@ export default function Skills() {
           <h3>Node</h3>
         </div>
       </div>
-      <br></br>
-      <br></br>
     </section>
 </div>
   );
