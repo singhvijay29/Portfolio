@@ -2,6 +2,27 @@ import React from "react";
 import "./Skills.css";
 
 export default function Skills() {
+  
+   document.querySelectorAll('.skills-card').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const cardRect = card.getBoundingClientRect();
+        const centerX = cardRect.left + cardRect.width / 2;
+        const centerY = cardRect.top + cardRect.height / 2;
+        const xAxis = (centerX - e.clientX) / 20;
+        const yAxis = (centerY - e.clientY) / 20;
+        card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+      });
+
+      card.addEventListener('mouseenter', () => {
+        card.style.transition = 'none';
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transition = 'transform 0.5s ease';
+        card.style.transform = 'rotateY(0deg) rotateX(0deg)';
+      });
+    });
+  
   return (
     <section id="Skills" class="skills-section container mx-auto py-[80px]">
       <div class="container"></div>
