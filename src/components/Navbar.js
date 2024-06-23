@@ -19,7 +19,7 @@ export default function Navbar({ scrollY }) {
     <>
       <header
         className={`headerTop mt-0 fixed top-0 overflow-hidden w-full z-[999] ${
-          scrollY > 80 && "bg-[#000]"
+          scrollY > 100 && "bg-[#000]"
         }`}
         data-aos="fade-down"
         data-aos-anchor-placement="top-bottom"
