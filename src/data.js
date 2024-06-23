@@ -1,10 +1,39 @@
 export const projects = [
-   {
-    title: "Dineout.com Clone",
-    subtitle: "TECH STACK: HTML | CSS | Material UI | JavaScript | Express Js | Mongo DB | ReactJs",
+  {
+    title: "Pazago",
+    subtitle:
+      "TECH STACK: NextJs | ReactJs | Web-Socket | React Query | TailwindCSS | Material UI | Flutter | Dart",
     description:
-      " Dineout is a platform that enables customers to directly make reservations for nearby restaurants and book the tables.",
-    image: "https://i.ibb.co/YLhvf8S/ezgif-com-gif-maker.png",
+      "Pazago is a comprehensive platform designed to facilitate international trade by managing export-import operations. It accelerates business expansion globally, offering tools and support to streamline transactions and growth.",
+    image: "https://i.postimg.cc/Wb2XcGqy/Pazago-Preview.png",
+    mobImage:
+      "https://i.postimg.cc/W4MPGZrm/Screenshot-2024-06-23-at-3-19-11-PM.png",
+    gitlink: "https://github.com/RajP62/Dineout",
+    link: "https://pazago.com/",
+    isApp: true,
+  },
+  {
+    title: "Precize",
+    subtitle:
+      "TECH STACK: NextJs | ReactJs | Web-Socket | TailwindCSS | Material UI | JavaScript",
+    description:
+      "Precize is democratizing private markets with a transparent, secure portal. Our team of financial strategists and software developers believes in accessible private markets. We offer a new way to invest and manage capital in private equity.",
+    image: "https://i.postimg.cc/0jqTGzQw/video-thumb.jpg",
+    mobImage:
+      "https://i.postimg.cc/Bbzy9ZHQ/Screenshot-2024-06-23-at-3-19-30-PM.png",
+    gitlink: "https://github.com/RajP62/Dineout",
+    link: "https://dineout-rajp62.vercel.app/",
+  },
+  {
+    title: "Dineout.com Clone",
+    subtitle:
+      "TECH STACK: HTML | CSS | Material UI | JavaScript | Express Js | Mongo DB | ReactJs",
+    description:
+      "Dineout is a platform that allows customers to easily make reservations at nearby restaurants and book tables directly. It simplifies the dining experience by providing a convenient way to secure reservations.",
+    image:
+      "https://www.cardexpert.in/wp-content/uploads/2018/09/dineout_india.jpg",
+    mobImage:
+      "https://i.postimg.cc/NGyvDZ1f/Screenshot-2024-06-23-at-3-19-44-PM.png",
     gitlink: "https://github.com/RajP62/Dineout",
     link: "https://dineout-rajp62.vercel.app/",
   },
@@ -13,34 +42,10 @@ export const projects = [
     subtitle: "TECH STACK: HTML | CSS | JavaScript | Express Js | Mongo DB",
     description:
       "Dunzo is an app that connects you to the nearest delivery partner who can make purchases, pick up items from any store or restaurant in the city and bring them to you. A cooperative Project worked by a group of 6 executed in 6 days.",
-    image: "https://i.ibb.co/z6pLmzt/dunzo.png",
+    image: "https://www.adgully.com/img/800/201909/main-iamge.jpg",
+    mobImage:
+      "https://i.postimg.cc/zBrH7TQq/Screenshot-2024-06-23-at-3-19-55-PM.png",
     gitlink: "https://github.com/jaidev3/FW12_Dunzo_Project-Back-End",
     link: "https://masai-dunzo.netlify.app/",
   },
-  {
-    title: "Udacity.com Clone",
-    subtitle: "TECH STACK: HTML | CSS | JavaScript | Express Js | Mongo DB",
-    description:
-      "This project is a complete clone UI of the Udacity website with the functionalities of signing in, buying a course and visiting the course using frontend and backend technologies to save user data, course data, payment data, etc.",
-    image: "https://i.ibb.co/K2bmxr2/udacity2.png",
-    gitlink: "https://github.com/Pavankalyan477/Udacity_Project",
-    link: "https://udacity-clone-git-master-udacity-clone.vercel.app/",
-  },
-  {
-    title: "Udacity.com Clone",
-    subtitle: "TECH STACK: HTML | CSS | JavaScript",
-    description:
-      "This project is a complete clone UI of the Udacity website with the functionalities of signing in, buying a course and visiting the course using frontend and backend technologies to save user data, course data, payment data, etc.",
-    image: "https://i.ibb.co/pJqxZFh/udacity1.png",
-    gitlink: "https://github.com/Pavankalyan477/Project-Buddies",
-    link: "https://udacity-clone-git-master-udacity-clone.vercel.app/",
-  },
-  // {
-  //   title: "TomTop.com Clone",
-  //   subtitle:"TECH : HTML | CSS | JavaScript",
-  //   description:
-  //     "I have cloned this website called TomTop which a reliable wholesale and retail online shop, ",
-  //   image: "https://miro.medium.com/max/1050/1*Um4FhxnE0UHeby300h5vAA.png",
-  //   link: "https://github.com/singhvijay29/project_tomtop",
-  // },
 ];
