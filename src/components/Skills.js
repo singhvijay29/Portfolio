@@ -3,7 +3,7 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    <section id="Skills" class="skills-section container mx-auto py-[80px]">
+    <section id="Skills" class="skills-section container mx-auto py-[80px] gradient-to-gray-900">
       <div class="container"></div>
       <h1>Tools And Skills</h1>
       <br></br>
