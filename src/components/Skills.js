@@ -47,7 +47,7 @@ export default function Skills() {
         </div>
         <div class="skills-card">
           <img
-            src="https://cdn.svgporn.com/logos/websocket.svg"
+            src="https://i.postimg.cc/c4DYmXVd/SVGRepo-icon-Carrier.png"
             alt="websocket"
           />
           <h3>Websocket</h3>
