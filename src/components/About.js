@@ -17,7 +17,7 @@ export default function About() {
                     Frontend Engineer at Pazago Technologies
                   </div>
                   <br />
-                  <div className="text-[16px] md:text-[20px]">
+                  <div className="text-[16px] md:text-[22px]">
                     As a passionate and innovative Frontend Engineer at Pazago
                     Technologies, I specialize in creating seamless and engaging
                     user experiences. With a strong foundation in web
@@ -26,11 +26,11 @@ export default function About() {
                     deliver cutting-edge solutions that drive customer
                     satisfaction and business success. <br />
                   </div>
-                  <div className="font-semibold mt-5 mb-3 text-[20px] md:text-[24px]">
+                  <div className="font-semibold mt-5 mb-3 text-[22px] md:text-[24px]">
                     Professional Highlights:
                   </div>
                   <div className="flex flex-col text-[24px] gap-4">
-                    <div className="text-[16px] md:text-[20px]">
+                    <div className="text-[16px] md:text-[22px]">
                       <span className="text-[#f2f29] font-[600]">
                         Innovative Web Development:
                       </span>{" "}
@@ -39,7 +39,7 @@ export default function About() {
                       achieving a 50% increase in page load speed and a 20%
                       boost in user retention.
                     </div>
-                    <div className="text-[16px] md:text-[20px]">
+                    <div className="text-[16px] md:text-[22px]">
                       <span className="text-[#f2f29] font-[600]">
                         Cross-functional Collaboration:
                       </span>{" "}
@@ -47,7 +47,7 @@ export default function About() {
                       systems through close collaboration with designers and
                       backend developers.
                     </div>
-                    <div className="text-[16px] md:text-[20px]">
+                    <div className="text-[16px] md:text-[22px]">
                       <span className="text-[#f2f29] font-[600]">
                         Performance Optimization:
                       </span>{" "}
@@ -55,7 +55,7 @@ export default function About() {
                       compatibility, significantly enhancing user experience and
                       search visibility.
                     </div>
-                    <div className="text-[16px] md:text-[20px]">
+                    <div className="text-[16px] md:text-[22px]">
                       <span className="text-[#f2f29] font-[600]">
                         Feature Development:
                       </span>{" "}
@@ -64,7 +64,7 @@ export default function About() {
                       with WebSocket technology, and enabling push notifications
                       for real-time updates.
                     </div>
-                    <div className="text-[16px] md:text-[20px]">
+                    <div className="text-[16px] md:text-[22px]">
                       <span className="text-[#f2f29] font-[600]">
                         Advanced Functionality:
                       </span>{" "}
@@ -73,7 +73,7 @@ export default function About() {
                       reader, and PDF document generator, all aimed at improving
                       usability and efficiency.
                     </div>
-                    <div className="text-[16px] md:text-[20px]">
+                    <div className="text-[16px] md:text-[22px]">
                       <span className="text-[#f2f29] font-[600]">
                         Technical Excellence:
                       </span>{" "}
@@ -82,7 +82,7 @@ export default function About() {
                       performance with techniques like lazy loading and code
                       splitting.
                     </div>
-                    <div className="text-[16px] md:text-[20px]">
+                    <div className="text-[16px] md:text-[22px]">
                       <span className="text-[#f2f29] font-[600]">
                         User-centric Solutions:
                       </span>{" "}
@@ -91,10 +91,10 @@ export default function About() {
                       handling 1,000+ monthly transactions.
                     </div>
                   </div>
-                  <div className="font-semibold mt-8 mb-3 text-[20px] md:text-[24px]">
+                  <div className="font-semibold mt-8 mb-3 text-[22px] md:text-[24px]">
                     Education:
                   </div>
-                  <div className="flex flex-col text-[16px] md:text-[20px] gap-2">
+                  <div className="flex flex-col text-[16px] md:text-[22px] gap-2">
                     <div>
                       Full Stack Web Development - Masai School, Bangalore
                     </div>
