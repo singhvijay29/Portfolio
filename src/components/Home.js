@@ -19,7 +19,7 @@ export default function Home() {
       id="home"
       data-aos="fade-in"
       data-aos-duration="700"
-      className="lg:h-[100vh] flex items-center justify-center"
+      className="lg:h-[100vh] flex items-center justify-center gradient-to-black"
     >
       <div className="about-cont container mx-auto flex gap-[64px] lg:gap-0 px-10 pt-[80px] md:pt-[160px] lg:pt-20 pb-20 lg:flex-row flex-col items-center ">
         <div
