@@ -6,3 +6,25 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.card-container {
+  perspective: 1000px; /* Add perspective to the container */
+}
+
+.card {
+  transition: transform 0.1s;
+  transform-style: preserve-3d; /* Preserve 3D transformations */
+}
+
+.card:hover {
+  /* Transition for the hover effect */
+  transform: rotateY(0deg) rotateX(0deg);
+}
+
+.image-overlay {
+  transition: opacity 0.5s ease;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
