@@ -12,7 +12,7 @@ function App() {
   const [scrollY, setScrollY] = useState(0);
   return (
     <div
-      className="App text-gray-400 body-font max-w-[1440px] mx-auto h-[100vh] no-scrollbar"
+      className="App text-gray-400 body-font max-w-[1440px] mx-auto h-[100vh] no-scrollbar overflow-y-auto"
       onScroll={(e) => setScrollY(e?.target?.scrollTop)}
     >
       <Navbar scrollY={scrollY} />
