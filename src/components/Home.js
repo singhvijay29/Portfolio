@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="lg:max-w-lg lg:w-2/3 w-5/6 m-auto"
+          className="lg:max-h-[60vh] m-auto"
           data-aos="fade-in"
           data-aos-duration="700"
         >
