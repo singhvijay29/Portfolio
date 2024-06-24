@@ -64,12 +64,12 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="w-[340px] h-[450px] m-auto"
+          className="max-w-[450px] max-h-[450px] m-auto h-full w-full"
           data-aos="fade-in"
           data-aos-duration="700"
         >
           <img
-            className="image-bar w-[340px] md:h-[450px]"
+            className="image-bar max-w-[450px] max-h-[450px] h-full w-full"
             alt="hero"
             src="https://i.ibb.co/pZVd8Ct/Png-Item-1127587-1.png"
           />
