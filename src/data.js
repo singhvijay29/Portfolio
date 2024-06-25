@@ -23,7 +23,7 @@ export const projects = [
     mobImage:
       "https://i.postimg.cc/Bbzy9ZHQ/Screenshot-2024-06-23-at-3-19-30-PM.png",
     gitlink: "https://github.com/RajP62/Dineout",
-    link: "https://dineout-rajp62.vercel.app/",
+    link: "https://www.precize.in/",
   },
   {
     title: "Dineout.com Clone",
