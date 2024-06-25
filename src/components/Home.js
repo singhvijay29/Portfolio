@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="max-w-[450px] max-h-[450px] m-auto h-full w-full mt-5"
+          className="max-w-[450px] max-h-[450px] m-auto h-full w-full mt-5 md:mt-10"
           data-aos="fade-in"
           data-aos-duration="700"
         >
