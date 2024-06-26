@@ -32,7 +32,7 @@ export const projects = [
     description:
       "Dineout is a platform that allows customers to easily make reservations at nearby restaurants and book tables directly. It simplifies the dining experience by providing a convenient way to secure reservations.",
     image:
-      "https://www.musafirnamah.com/wp-content/uploads/2017/05/dineout-logo-nh-300x203.jpg",
+      "https://i.postimg.cc/d0mf8DtC/images.jpg",
     mobImage:
       "https://i.postimg.cc/NGyvDZ1f/Screenshot-2024-06-23-at-3-19-44-PM.png",
     gitlink: "https://github.com/RajP62/Dineout",
