@@ -22,19 +22,7 @@ export default function Projects() {
               key={i}
               className="overflow-hidden group bg-gray-900 rounded-[16px] relative group transition duration-[400ms] cursor-pointer lg:hover:scale-[105%] hover:ring-1 ring-gray-700"
             >
-              <img
-                src={project?.image}
-                className={
-                  "hidden md:block h-full w-full absolute top-0 bottom-0 left-0 right-0 group-hover:opacity-0 transition duration-[400ms] lg:group-hover:scale-[110%] object-center	object-cover"
-                }
-              />
-              <img
-                src={project?.mobImage}
-                className={
-                  "block md:hidden h-full w-full absolute top-0 bottom-0 left-0 right-0 group-hover:opacity-0 transition duration-[400ms] lg:group-hover:scale-[110%] object-center"
-                }
-              />
-              <div className="px-8 py-6 z-10 w-full opacity-0 group-hover:opacity-100 rounded-[16px] transition duration-[400ms]">
+              <div className="px-8 py-6 z-10 w-full rounded-[16px] transition duration-[400ms]">
                 <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-3 mt-4 px-3">
                   {project.subtitle}
                 </h2>
