@@ -63,7 +63,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        {/* <div
+        <div
           className="max-w-[450px] max-h-[450px] m-auto h-full w-full mt-5 md:mt-10"
           data-aos="fade-in"
           data-aos-duration="700"
@@ -71,9 +71,9 @@ export default function Home() {
           <img
             className="image-bar max-w-[450px] max-h-[450px] h-full w-full"
             alt="hero"
-            src="https://i.ibb.co/pZVd8Ct/Png-Item-1127587-1.png"
+            src="https://i.ibb.co/5vzcbp4/Pngtree-modern-flat-design-concept-of-5332896.png"
           />
-        </div> */}
+        </div>
       </div>
     </section>
 </div>
