@@ -71,7 +71,7 @@ export default function Home() {
           <img
             className="image-bar max-w-[450px] max-h-[450px] h-full w-full"
             alt="hero"
-            src="https://i.ibb.co/5vzcbp4/Pngtree-modern-flat-design-concept-of-5332896.png"
+            src="/hero_preview.png"
           />
         </div>
       </div>
