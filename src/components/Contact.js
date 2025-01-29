@@ -62,7 +62,7 @@ export default function Contact() {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/vijay-kumar-singh-675270203/"
+                      href="https://www.linkedin.com/in/singh-vijay294/"
                       target="_blank"
                       rel="noreferrer"
                       className="circle"
