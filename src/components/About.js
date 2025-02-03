@@ -18,7 +18,7 @@ export default function About() {
                     </div>
                     <br />
                     <div className="text-[16px] md:text-[22px]">
-                      Experienced Frontend Developer adept in crafting dynamic web applications using NextJs, ReactJs, Websocket, Redux, Javascript, Typescript, Tailwind CSS, Chakra UI and Flutter/Dart. Specialized in translating designs into user-friendly interfaces, optimizing performance, and ensuring cross-browser compatibility. Committed to staying abreast of the latest technologies to enhance user experiences. With more then 2.5 years of hands-on experience, consistently delivers high-quality frontend solutions. <br />
+                      Experienced Frontend Developer adept in crafting dynamic web applications using NextJs, ReactJs, Websocket, Redux, Javascript, Typescript, Tailwind CSS, Chakra UI and Flutter/Dart. Specialized in translating designs into user-friendly interfaces, optimizing performance, and ensuring cross-browser compatibility. Committed to staying abreast of the latest technologies to enhance user experiences. With more then 3+ years of hands-on experience, consistently delivers high-quality frontend solutions. <br />
                     </div>
                     <div className="font-semibold mt-5 mb-3 text-[22px] md:text-[24px]">
                       Professional Highlights:
