@@ -18,13 +18,7 @@ export default function About() {
                     </div>
                     <br />
                     <div className="text-[16px] md:text-[22px]">
-                      As a passionate and innovative Frontend Engineer, I
-                      specialize in creating seamless and engaging user
-                      experiences. With a strong foundation in web development
-                      and a keen eye for design, I collaborate closely with
-                      designers, product managers, and backend developers to
-                      deliver cutting-edge solutions that drive customer
-                      satisfaction and business success. <br />
+                      Experienced Frontend Developer adept in crafting dynamic web applications using NextJs, ReactJs, Websocket, Redux, Javascript, Typescript, Tailwind CSS, Chakra UI and Flutter/Dart. Specialized in translating designs into user-friendly interfaces, optimizing performance, and ensuring cross-browser compatibility. Committed to staying abreast of the latest technologies to enhance user experiences. With more then 3+ years of hands-on experience, consistently delivers high-quality frontend solutions. <br />
                     </div>
                     <div className="font-semibold mt-5 mb-3 text-[22px] md:text-[24px]">
                       Professional Highlights:
@@ -34,8 +28,7 @@ export default function About() {
                         I specialize in Next.js, React.js, TypeScript,
                         JavaScript, React Query, WebSockets, Redux, Tailwind
                         CSS, Chakra UI, HTML, CSS, Git, Web3.js, Ether.js,
-                        Flutter, Firebase. I improved page load speed by 50% and
-                        boosted user retention by 20%. <br />
+                        Flutter, Firebase.<br />
                         Key Contributions: <br />
                         Integrated Google Maps API for shipment tracking and
                         WebSocket for real-time chat.
